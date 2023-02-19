@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    color: #16FF00;
+    font-family: 'Cutive Mono', monospace;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+}
+.center{
+    text-align: center;
+    margin:7rem auto;
+    width: 50%;
+    height: 7rem;
+}
+
+#name{
+    background-color: black;
+    color: #16FF00;
+    font-size: 1rem;
+    font-family: 'Press Start 2P', cursive;
+    width: 50%;
+    height:2rem;
+}
+
+.btn{
+    width: 6rem;
+    height:2rem ;
+    background-color: black;
+    box-shadow: 3px 3px 3px white;
+    color: #16FF00;
+    font-size: 1rem;
+    font-family: 'Press Start 2P', cursive;
+}
+.target{   
+    border: solid;
+}
+
+.initial{
+    display: none;
+    width: 80%;
+    height: 2rem;
+}
+
+.progress{
+    border-style: solid;
+}
+
+.line{
+    width: 0%;
+    height: 2rem;
+    background-color: green; 
+}
+.container {
+    display: none;
+    margin: auto;
+    overflow: auto;
+}
